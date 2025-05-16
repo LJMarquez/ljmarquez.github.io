@@ -16,8 +16,8 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    // base: env.BASE_URL || "/ljmarquez-portfolio/",
-    base: "./",
+    base: env.BASE_URL || "/ljmarquez.github.io/",
+    // base: "./",
     server: {
       host: '0.0.0.0',
       port: 5173
