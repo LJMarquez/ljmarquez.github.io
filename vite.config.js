@@ -16,14 +16,13 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: env.BASE_URL || "/ljmarquez.github.io",
+    base: env.BASE_URL || "./",
     // base: "./",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
       },
     },
-    // Configure to serve assets from the public directory
     publicDir: "public",
   }
 })

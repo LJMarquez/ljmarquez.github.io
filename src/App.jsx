@@ -28,9 +28,9 @@ function App() {
     <>
       {loading && <LoadingScreen finishLoading={() => setLoading(false)} />}
       <div className={loading ? "app-content hidden" : "app-content visible"}>
-        <Router basename={import.meta.env.BASE_URL || "/"}>
+        <Router basename={import.meta.env.BASE_URL || "./"}>
           <Routes>
-            <Route path="/" element={<Layout />}>
+            <Route path="./" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="projects" element={<Projects />} />
               <Route path="code-projects" element={<CodeProjects />} />
