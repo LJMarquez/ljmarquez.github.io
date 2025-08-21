@@ -235,7 +235,7 @@ export const projectData = [
         link: "ssf-flyer.pdf",
       },
     ],
-    awards: ["gold" ],
+    awards: ["gold"],
   },
   {
     type: "graphic design",
@@ -271,5 +271,21 @@ export const projectData = [
       { title: "Flyer", img: "ccc-flyer.png", link: "ccc-flyer.pdf" },
     ],
     awards: ["gold"],
+  },
+  {
+    type: "graphic design",
+    title: "Retro Revive",
+    id: "retro-revive",
+    projectLink: "retro-revive-logos.pdf",
+    header: "Sustainable Fashion",
+    description:
+      "I created this project at the SkillsUSA state competition in Arizona for 2025. This project also won first place out of 80+ contestants! The brand's mission was to create clothing that focused on sustainability while also being modern and somewhat nostalgic. I ended up making a brand that had little skeletons as their mascot to really lean into the \"revive\" portion of the brand. I also had to make a flyer to advertise their brand and make it stand out from the rest of the competition. I kept the color scheme really playful with blues and oranges as well.",
+    repoLink: null,
+    coverImg: "retro-revive-logo.png",
+    promotionalPackageItems: [
+      { title: "Logos", img: "retro-revive-logo.png", link: "retro-revive-logos.pdf" },
+      { title: "Flyer", img: "retro-revive-flyer.png", link: "retro-revive-flyer.pdf" },
+    ],
+    awards: null,
   },
 ]
