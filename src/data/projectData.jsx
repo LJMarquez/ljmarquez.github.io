@@ -158,37 +158,6 @@ export const projectData = [
   // },
   {
     type: "graphic design",
-    title: "Our Food Slaps!",
-    id: "our-food-slaps",
-    header: "Fast, Fresh, Affordable!",
-    description:
-      "This project was created for the SkillsUSA nationals Advertising Design competition when I competed in 2024. We were tasked with creating a logo and promotional package for a restaurant. The restaurant was called Our Food Slaps! and it was a fast food restaurant that aimed to be new and stand out from other fast food spots while being fun, affordable, and fresh. I aimed for a very vibrant and fun color palette and tried to set my project apart from the others. This project ended up winning a national medal at the end of the competition!",
-    repoLink: null,
-    coverImg: "OFS-logo.png",
-    promotionalPackageItems: [
-      { title: "Logos", img: "ofs-all-logos.png", link: "ofs-logos.pdf" },
-      {
-        title: "Print Ad",
-        img: "ofs-ad.png",
-        link: "ofs-ad.pdf",
-      },
-      {
-        title: "Sticker",
-        img: "ofs-sticker.png",
-        link: "ofs-sticker.pdf",
-      },
-      {
-        title: "Billboards",
-        img: "ofs-billboards.png",
-        link: "ofs-billboards.pdf",
-      },
-      { title: "Mascot", img: "ofs-mascot.png", link: "ofs-mascot.pdf" },
-      { title: "Food Packaging", img: "ofs-packages.png", link: "ofs-packages.pdf" },
-    ],
-    awards: ["bronze"],
-  },
-  {
-    type: "graphic design",
     title: "Set Apart Plumbing",
     id: "sa-plumbing",
     header: "We're Different",
@@ -220,6 +189,28 @@ export const projectData = [
   },
   {
     type: "graphic design",
+    title: "Agua Fria High School District",
+    id: "afhsd",
+    projectLink: "academy-logos.pdf",
+    header: "Academies of the Southwest Valley",
+    description:
+      "I made all of these logos and digital assets when I worked as a student intern for the Agua Fria High School District. Being in this role allowed me to experience what work would look like in a professional business setting while also allowing me to show my creativity while also adhering to brand guidelines. I made various different things like logos, flyers, and other promotional materials for the different academies and departments within the district.",
+    repoLink: null,
+    coverImg: "afhsd-logo.png",
+    promotionalPackageItems: [
+      { title: "Academic Summit", img: "academic-summit.png", link: "academic-summit.pdf" },
+      { title: "Academies", img: "academies-logo.png", link: "academies-logos.pdf" },
+      { title: "Ambassador Logos", img: "academy-ambassadors-logo.png", link: "academy-ambassador-logos.pdf" },
+      { title: "Freshman Academy", img: "freshman-academy-logo.png", link: "freshman-academy-logos.pdf" },
+      { title: "L&C Day", img: "l-and-c-day-logo.png", link: "l-and-c-day-logos.pdf" },
+      { title: "L&C Emblem", img: "l-and-c-day-emblems.png", link: "l-and-c-day-emblems.pdf" },
+      { title: "Pathway Icons", img: "pathway-icon.png", link: "pathway-icons.pdf" },
+      { title: "StemCON", img: "stemcon-logo.png", link: "stemcon-logos.pdf" },
+    ],
+    awards: null,
+  },
+  {
+    type: "graphic design",
     title: "Sonoran Sky Flyers",
     id: "sonoran-sky-flyers",
     header: "It's Love at First Flight!",
@@ -239,22 +230,34 @@ export const projectData = [
   },
   {
     type: "graphic design",
-    title: "Wagging Tails",
-    id: "wagging-tails",
-    header: "It's a Dog's Dream",
+    title: "Our Food Slaps!",
+    id: "our-food-slaps",
+    header: "Fast, Fresh, Affordable!",
     description:
-      "This project was created for the 2024 SkillsUSA regional competition in Arizona. We were tasked with creating a logo and flyer for a fictional dog sitting company called Wagging Tails. The company was based in Arizona and catered to people who may need help with their dog while they're away or at work. I tried to make the logo and flyer fun and playful to show that the company was friendly and inviting to all dogs. This project also ended up winning a gold medal at the end of the competition!",
+      "This project was created for the SkillsUSA nationals Advertising Design competition when I competed in 2024. We were tasked with creating a logo and promotional package for a restaurant. The restaurant was called Our Food Slaps! and it was a fast food restaurant that aimed to be new and stand out from other fast food spots while being fun, affordable, and fresh. I aimed for a very vibrant and fun color palette and tried to set my project apart from the others. This project ended up winning a national medal at the end of the competition!",
     repoLink: null,
-    coverImg: "wt-logo.png",
+    coverImg: "OFS-logo.png",
     promotionalPackageItems: [
-      { title: "Logo", img: "wt-logo.png", link: "wt-logo.pdf" },
+      { title: "Logos", img: "ofs-all-logos.png", link: "ofs-logos.pdf" },
       {
-        title: "Flyer",
-        img: "wt-flyer.png",
-        link: "wt-flyer.png",
+        title: "Print Ad",
+        img: "ofs-ad.png",
+        link: "ofs-ad.pdf",
       },
+      {
+        title: "Sticker",
+        img: "ofs-sticker.png",
+        link: "ofs-sticker.pdf",
+      },
+      {
+        title: "Billboards",
+        img: "ofs-billboards.png",
+        link: "ofs-billboards.pdf",
+      },
+      { title: "Mascot", img: "ofs-mascot.png", link: "ofs-mascot.pdf" },
+      { title: "Food Packaging", img: "ofs-packages.png", link: "ofs-packages.pdf" },
     ],
-    awards: ["gold"],
+    awards: ["bronze"],
   },
   {
     type: "graphic design",
@@ -287,5 +290,24 @@ export const projectData = [
       { title: "Flyer", img: "retro-revive-flyer.png", link: "retro-revive-flyer.pdf" },
     ],
     awards: null,
+  },
+  {
+    type: "graphic design",
+    title: "Wagging Tails",
+    id: "wagging-tails",
+    header: "It's a Dog's Dream",
+    description:
+      "This project was created for the 2024 SkillsUSA regional competition in Arizona. We were tasked with creating a logo and flyer for a fictional dog sitting company called Wagging Tails. The company was based in Arizona and catered to people who may need help with their dog while they're away or at work. I tried to make the logo and flyer fun and playful to show that the company was friendly and inviting to all dogs. This project also ended up winning a gold medal at the end of the competition!",
+    repoLink: null,
+    coverImg: "wt-logo.png",
+    promotionalPackageItems: [
+      { title: "Logo", img: "wt-logo.png", link: "wt-logo.pdf" },
+      {
+        title: "Flyer",
+        img: "wt-flyer.png",
+        link: "wt-flyer.png",
+      },
+    ],
+    awards: ["gold"],
   },
 ]
