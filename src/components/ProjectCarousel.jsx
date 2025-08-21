@@ -3,7 +3,7 @@ import { projectData } from "../data/projectData"
 
 const ProjectCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
-  const featuredProjects = projectData.filter((project) => project.id === "talent-link" || project.id === "edumon")
+  const featuredProjects = projectData.filter((project) => project.id === "talent-link" || project.id === "edumon" || project.id === "sa-plumbing" || project.id === "our-food-slaps")
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % featuredProjects.length)

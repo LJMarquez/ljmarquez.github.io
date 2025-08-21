@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
       // Set up interval to cycle through images
       imageIntervalRef.current = setInterval(() => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % allImages.length)
-      }, 1500)
+      }, 1000)
     }
 
     return () => {
@@ -108,6 +108,18 @@ const ProjectCard = ({ project }) => {
     setVideoError(true)
   }
 
+  const handleViewProjectClick = (e) => {
+    e.stopPropagation()
+
+    if (project.type === "coding") {
+      // For coding projects, open the project link
+      window.open(project.projectLink, '_blank', 'noopener,noreferrer')
+    } else if (project.type === "graphic design") {
+      // For graphic design projects, open modal with all promotional package items
+      openModal()
+    }
+  }
+
   // Get the current image to display
   const getCurrentImage = () => {
     if (project.type === "graphic design" && project.promotionalPackageItems && isHovered) {
@@ -181,11 +193,13 @@ const ProjectCard = ({ project }) => {
               )}
             </>
           ) : (
-            <img
-              src={getCurrentImage() || "/placeholder.svg"}
-              alt={`${project.title} project`}
-              style={{ transform: isHovered ? "scale(1.1)" : "scale(1)" }}
-            />
+            <div className="graphic-design-image">
+              <img
+                src={getCurrentImage() || "/placeholder.svg"}
+                alt={`${project.title} project`}
+                style={{ transform: isHovered ? "scale(1.1)" : "scale(1)" }}
+              />
+            </div>
           )}
           <div className="project-overlay">
             <div className="project-overlay-content">
@@ -210,15 +224,12 @@ const ProjectCard = ({ project }) => {
           )}
 
           <div className="project-links">
-            <a
+            <button
               className="project-link"
-              href={project.projectLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              onClick={handleViewProjectClick}
             >
               View Project
-            </a>
+            </button>
             {project.repoLink && (
               <a
                 className="project-link"
@@ -274,15 +285,38 @@ const ProjectCard = ({ project }) => {
               ) : (
                 <>
                   <h2 className="modal-title">{project.title}</h2>
-                  <div className="modal-body" dangerouslySetInnerHTML={{ __html: project.description }} />
-                  <div className="modal-footer">
-                    <a className="modal-button" href={project.projectLink} target="_blank" rel="noopener noreferrer">
-                      View Project
-                    </a>
-                    <a className="modal-button" href={project.repoLink} target="_blank" rel="noopener noreferrer">
-                      View Code
-                    </a>
-                  </div>
+                  {project.type === "graphic design" && project.promotionalPackageItems ? (
+                    <div className="modal-promotional-package">
+                      <p className="modal-description" dangerouslySetInnerHTML={{ __html: project.description }} />
+                      <h3 className="package-items-title">Promotional Package Items</h3>
+                      <div className="package-items-grid">
+                        {project.promotionalPackageItems.map((item, index) => (
+                          <div key={index} className="package-item-card" onClick={() => setSelectedPackageItem(item)}>
+                            <img
+                              src={`/assets/graphic-design-projects/${project.id}/${item.img}`}
+                              alt={item.title}
+                              className="package-item-image"
+                            />
+                            <h4 className="package-item-title">{item.title}</h4>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="modal-body" dangerouslySetInnerHTML={{ __html: project.description }} />
+                      <div className="modal-footer">
+                        <a className="modal-button" href={project.projectLink} target="_blank" rel="noopener noreferrer">
+                          View Project
+                        </a>
+                        {project.repoLink && (
+                          <a className="modal-button" href={project.repoLink} target="_blank" rel="noopener noreferrer">
+                            View Code
+                          </a>
+                        )}
+                      </div>
+                    </>
+                  )}
                 </>
               )}
             </motion.div>

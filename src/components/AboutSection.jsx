@@ -46,11 +46,10 @@ const AboutSection = () => {
             </p>
             <p>
               I have experience working with a client to develop work for them and am ready to use my technical skills
-              in a professional setting. I have multiple awards from the CTSO competitions I competed in my junior year
+              in a professional setting. I have multiple awards from the CTSO competitions I competed in my junior through senior years
               of high school.
             </p>
             <div className="mt-4 cta-container">
-            {/* <div> */}
               <Link to="/contact" className="hero-cta primary">
                 Let's Get Talking!
               </Link>

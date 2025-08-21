@@ -130,6 +130,132 @@ export const projectData = [
     promotionalPackageItems: null,
     awards: null,
   },
+  // {
+  //   type: "graphic design",
+  //   title: "Chameleon Designs",
+  //   id: "chameleon-designs",
+  //   projectLink: "logo.pdf",
+  //   header: "Your Visions into Colorful Realities!",
+  //   description:
+  //     "In this project, me and three other people were put in a group and tasked with making a mock up graphics advertising company. We went through multiple steps to procure the final outcome but I'll briefly lay out the steps. We assigned roles to each member of the group and defined our target audience, our mission, company name, slogan, etc. After that we came up with multiple ideas logos and narrowed it down to the one I made and made multiple variations of it. Then we were tasked with designing an office space and the costs of rent and running our business (consumables, tech, etc). Then we developed a promotional package including business cards, letterheads, etc. Throughout the entire process we wrote up memos to communicate with our client (our teacher) to show us what communication looks like in the professional world.",
+  //   repoLink: null,
+  //   coverImg: "logo.jpg",
+  //   promotionalPackageItems: [
+  //     { title: "All Logos", img: "all-logos.jpg", link: "all-logos.pdf" },
+  //     {
+  //       title: "3D Office Renders",
+  //       img: "floorplan.png",
+  //       link: "office-renders.pdf",
+  //     },
+  //     {
+  //       title: "Social Media Ad",
+  //       img: "social-media-ad.jpg",
+  //       link: "social-media-ad.pdf",
+  //     },
+  //     { title: "Full Promo Package", img: "logo.jpg", link: "full-package.pdf" },
+  //   ],
+  //   awards: null,
+  // },
+  {
+    type: "graphic design",
+    title: "Our Food Slaps!",
+    id: "our-food-slaps",
+    header: "Fast, Fresh, Affordable!",
+    description:
+      "This project was created for the SkillsUSA nationals Advertising Design competition when I competed in 2024. We were tasked with creating a logo and promotional package for a restaurant. The restaurant was called Our Food Slaps! and it was a fast food restaurant that aimed to be new and stand out from other fast food spots while being fun, affordable, and fresh. I aimed for a very vibrant and fun color palette and tried to set my project apart from the others. This project ended up winning a national medal at the end of the competition!",
+    repoLink: null,
+    coverImg: "OFS-logo.png",
+    promotionalPackageItems: [
+      { title: "Logos", img: "ofs-all-logos.png", link: "ofs-logos.pdf" },
+      {
+        title: "Print Ad",
+        img: "ofs-ad.png",
+        link: "ofs-ad.pdf",
+      },
+      {
+        title: "Sticker",
+        img: "ofs-sticker.png",
+        link: "ofs-sticker.pdf",
+      },
+      {
+        title: "Billboards",
+        img: "ofs-billboards.png",
+        link: "ofs-billboards.pdf",
+      },
+      { title: "Mascot", img: "ofs-mascot.png", link: "ofs-mascot.pdf" },
+      { title: "Food Packaging", img: "ofs-packages.png", link: "ofs-packages.pdf" },
+    ],
+    awards: ["bronze"],
+  },
+  {
+    type: "graphic design",
+    title: "Set Apart Plumbing",
+    id: "sa-plumbing",
+    header: "We're Different",
+    description:
+      "This was the first freelance project I did for a local plumbing company called Set Apart Plumbing. Their request was for a branding package that made them stand out from everyone else in the plumbing industry. They also wanted to feel inviting to clients. So I developed a logo that represents a house with plumbing accents while also forming the shape of an S and an A. I also decided to make a mascot for this company which they ended up loving and using on a lot of their promotional materials. I also made a truck wrap and letterhead for them. This project was a lot of fun and I learned a lot about how to work with clients and how to communicate with them effectively.",
+    repoLink: null,
+    coverImg: "sap-logo.png",
+    // coverImg: "sap-mascot.png",
+    promotionalPackageItems: [
+      { title: "Logos", img: "sap-logo.png", link: "sap-logo.pdf" },
+      {
+        title: "Mascot",
+        img: "sap-mascot.png",
+        link: "sap-mascot.pdf",
+      },
+      {
+        title: "Truck Wrap",
+        img: "sap-truck-wrap.jpg",
+        link: "sap-truck-wrap.pdf",
+      },
+      {
+        title: "Shirts",
+        img: "sap-shirt.png",
+        link: "sap-shirts.pdf",
+      },
+      { title: "Letterhead", img: "sap-letterhead.png", link: "sap-letterhead.pdf" },
+    ],
+    awards: null,
+  },
+  {
+    type: "graphic design",
+    title: "Sonoran Sky Flyers",
+    id: "sonoran-sky-flyers",
+    header: "It's Love at First Flight!",
+    description:
+      "This project was created for the 2025 SkillsUSA state competition in Arizona. We were tasked with creating a logo and flyer for a fictional hot air balloon company called Sonoran Sky Flyers. The company was based in Arizona and catered to people who wanted to fly in a hot air balloon whether they were a beginner or a seasoned veteran. I tried to make the logo and flyer colorful and vibrant to stand out and relay the idea of the experience being fun, entertaining, and for everyone to enjoy. This project ended up winning a gold medal at the end of the competition!",
+    repoLink: null,
+    coverImg: "ssf-logo.png",
+    promotionalPackageItems: [
+      { title: "Logo", img: "ssf-logo.png", link: "ssf-logo.pdf" },
+      {
+        title: "Flyer",
+        img: "ssf-flyer.png",
+        link: "ssf-flyer.pdf",
+      },
+    ],
+    awards: ["gold" ],
+  },
+  {
+    type: "graphic design",
+    title: "Wagging Tails",
+    id: "wagging-tails",
+    header: "It's a Dog's Dream",
+    description:
+      "This project was created for the 2024 SkillsUSA regional competition in Arizona. We were tasked with creating a logo and flyer for a fictional dog sitting company called Wagging Tails. The company was based in Arizona and catered to people who may need help with their dog while they're away or at work. I tried to make the logo and flyer fun and playful to show that the company was friendly and inviting to all dogs. This project also ended up winning a gold medal at the end of the competition!",
+    repoLink: null,
+    coverImg: "wt-logo.png",
+    promotionalPackageItems: [
+      { title: "Logo", img: "wt-logo.png", link: "wt-logo.pdf" },
+      {
+        title: "Flyer",
+        img: "wt-flyer.png",
+        link: "wt-flyer.png",
+      },
+    ],
+    awards: ["gold"],
+  },
   {
     type: "graphic design",
     title: "AZ Film Festival",
@@ -139,34 +265,11 @@ export const projectData = [
     description:
       "I created this project at the SkillsUSA state competition in Arizona. This project won first place out of 80+ contestants! I don't quite remember the entire design brief but it went something along the lines of this. There was a film festival being held in Flagstaff AZ called the Copper Canyon Film Festival. The film festival caters to all movie lovers providing them a with a place where they can share their love of movies with others. At the event, there would be movie showcases, movie watching parties, and presentations where film directors get to share their movie making experiences. We were tasked with developing a logo and making a flyer for the client and here is the work I created! I tried making the flyer colorful and vibrant to stand out and relay the idea of the film festival being fun, entertaining, and for everyone to enjoy. For the logo, instead of going with a desert theme I went with a color scheme and symbolism that related more to flagstaff, with the blues, the mountains, and the trees.",
     repoLink: null,
-    coverImg: "logo.jpg",
-    promotionalPackageItems: [{ title: "Flyer", img: "flyer.jpg", link: "flyer.pdf" }],
-    awards: ["gold"],
-  },
-  {
-    type: "graphic design",
-    title: "Chameleon Designs",
-    id: "chameleon-designs",
-    projectLink: "logo.pdf",
-    header: "Your Visions into Colorful Realities!",
-    description:
-      "In this project, me and three other people were put in a group and tasked with making a mock up graphics advertising company. We went through multiple steps to procure the final outcome but I'll briefly lay out the steps. We assigned roles to each member of the group and defined our target audience, our mission, company name, slogan, etc. After that we came up with multiple ideas logos and narrowed it down to the one I made and made multiple variations of it. Then we were tasked with designing an office space and the costs of rent and running our business (consumables, tech, etc). Then we developed a promotional package including business cards, letterheads, etc. Throughout the entire process we wrote up memos to communicate with our client (our teacher) to show us what communication looks like in the professional world.",
-    repoLink: null,
-    coverImg: "logo.jpg",
+    coverImg: "ccc-logo.jpg",
     promotionalPackageItems: [
-      { title: "All Logos", img: "all-logos.jpg", link: "all-logos.pdf" },
-      {
-        title: "3D Office Renders",
-        img: "floorplan.png",
-        link: "office-renders.pdf",
-      },
-      {
-        title: "Social Media Ad",
-        img: "social-media-ad.jpg",
-        link: "social-media-ad.pdf",
-      },
-      { title: "Full Promo Package", img: "logo.jpg", link: "full-package.pdf" },
+      { title: "Logo", img: "ccc-logo.jpg", link: "ccc-logo.pdf" },
+      { title: "Flyer", img: "ccc-flyer.png", link: "ccc-flyer.pdf" },
     ],
-    awards: null,
+    awards: ["gold"],
   },
 ]
