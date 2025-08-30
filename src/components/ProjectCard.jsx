@@ -209,7 +209,26 @@ const ProjectCard = ({ project }) => {
         </div>
 
         <div className="project-content">
-          <h3 className="project-title">{project.title}</h3>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "0.75rem" }}>
+            <h3 className="project-title" style={{ margin: 0 }}>{project.title}</h3>
+            {project.type === "coding" && project.platform && (
+              <div
+                className="project-platform-tag"
+                style={{
+                  marginLeft: "10px",
+                  padding: "4px 10px",
+                  borderRadius: "12px",
+                  backgroundColor: "var(--accent-primary)",
+                  color: "#fff",
+                  fontSize: "0.85em",
+                  fontWeight: 500,
+                  boxShadow: "0 2px 8px rgba(0,0,0,0.08)"
+                }}
+              >
+                {project.platform === "computer" ? "Computer" : project.platform === "mobile" ? "Mobile" : "All Platforms"}
+              </div>
+            )}
+          </div>
           <p className="project-header">{project.header}</p>
           <p className="project-description">{project.description.replace(/<[^>]*>/g, "")}</p>
 

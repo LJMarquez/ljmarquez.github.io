@@ -11,6 +11,7 @@ export const projectData = [
     coverImg: "talent-link.png",
     promotionalPackageItems: null,
     awards: ["gold", "bronze"],
+    platform: "both",
   },
   {
     type: "coding",
@@ -24,6 +25,7 @@ export const projectData = [
     coverImg: "edumon.png",
     promotionalPackageItems: null,
     awards: ["gold", "silver"],
+    platform: "mobile",
   },
   {
     type: "coding",
@@ -37,6 +39,7 @@ export const projectData = [
     coverImg: "novatech-cover.jpg",
     promotionalPackageItems: null,
     awards: ["gold", "bronze"],
+    platform: "both",
   },
   {
     type: "coding",
@@ -51,6 +54,7 @@ export const projectData = [
     // coverImg: "culinary-showdown.gif",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   {
     type: "coding",
@@ -64,6 +68,7 @@ export const projectData = [
     coverImg: "croc-o-rena-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   {
     type: "coding",
@@ -77,6 +82,7 @@ export const projectData = [
     coverImg: "fashun-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "both",
   },
   {
     type: "coding",
@@ -90,6 +96,7 @@ export const projectData = [
     coverImg: "calculator-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   {
     type: "coding",
@@ -103,6 +110,7 @@ export const projectData = [
     coverImg: "wordle-game-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   {
     type: "coding",
@@ -116,6 +124,7 @@ export const projectData = [
     coverImg: "soccer-game-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   {
     type: "coding",
@@ -129,6 +138,7 @@ export const projectData = [
     coverImg: "fnaf-game-cover.jpg",
     promotionalPackageItems: null,
     awards: null,
+    platform: "computer",
   },
   // {
   //   type: "graphic design",
