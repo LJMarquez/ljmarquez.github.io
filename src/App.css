@@ -664,6 +664,11 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.send-msg-btn {
+  font-family: "Comfortaa", sans-serif;
+  margin-bottom: 2rem;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {

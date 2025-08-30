@@ -64,6 +64,7 @@
   color: white;
   border: none;
   border-radius: 50px;
+  font-family: "Comfortaa", sans-serif;
   font-weight: 500;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -115,6 +116,7 @@
 #message {
   resize: vertical;
 }
+
 
 @keyframes spin {
   to {
