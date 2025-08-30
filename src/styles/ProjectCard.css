@@ -103,7 +103,11 @@
 
 .project-content {
   padding: 1.5rem;
-  padding-top: 0.2rem;
+}
+
+.coding-project-content {
+  /* padding-top: 0.1rem; */
+  padding-top: 0;
 }
 
 .project-title {

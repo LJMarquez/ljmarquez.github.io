@@ -208,7 +208,7 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
 
-        <div className="project-content">
+        <div className={`project-content${project.type === "coding" ? " coding-project-content" : ""}`}>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "0.75rem" }}>
             <h3 className="project-title" style={{ margin: 0 }}>{project.title}</h3>
             {project.type === "coding" && project.platform && (
