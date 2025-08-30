@@ -20,7 +20,7 @@ export const projectData = [
     header: "Can You Defeat The Headmaster?",
     description:
       "For this project, I created Edumon, a complex full-stack turn-based RPG where players collect and battle monsters by answering educational questions to determine the success of their moves. I used React Native for the frontend, implemented async storage for managing game state and user progression, and added subject and difficulty customization to tailor the learning experience. The app also includes animations, audio integration, and pixel art visuals to provide a seamless, engaging experience.",
-    repoLink: "https://github.com/FBLA-2025-app/App-FBLA-state",
+    repoLink: "https://github.com/LJMarquez/edumon",
     coverImg: "edumon.png",
     promotionalPackageItems: null,
     awards: ["gold", "silver"],
